@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>Novi džemperi</title>
+			<description>Ekskluzivo pogledajte našu novu kolekciju džempera</description>
+			<link>https://madic00.github.io/Arhaik/prodavnica.html</link>
+		</item>
+		<item>
+			<title>New pictures</title>
+			<description>You can see our new pictures in gallery</description>
+			<link>https://madic00.github.io/Arhaik/</link>
+		</item>
+	</channel>
+</rss>
