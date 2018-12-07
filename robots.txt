@@ -1,2 +1,3 @@
+Sitemap: https://madic00.github.io/Arhaik/sitemap.xml
 User-agent: *
 Disallow: /admin/
