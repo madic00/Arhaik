@@ -1,4 +1,4 @@
-@import "../fonts/stylesheet.css";
+@import url('https://fonts.googleapis.com/css?family=Signika:300');
 
 * {
   margin: 0px;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'titillium_webregular', sans-serif;
+  font-family: 'Signika', sans-serif;
   color: #303841;
   position: relative;
 }
@@ -39,7 +39,7 @@ a {
 }
 
 #align {
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 #search form {
@@ -115,7 +115,7 @@ a {
 .heroImg h1 {
   text-transform: uppercase;
   margin-bottom: 220px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .button {
@@ -268,7 +268,7 @@ a {
 
 .center .button a {
   background-color: #f7d02e;
-  margin-left: 60px;
+  margin-left: 65px;
 }
 
 /* SUCCESS */
@@ -449,6 +449,10 @@ aside p.katNaslov:last-child {
 #myInfo .column img {
   border-radius: 3px;
   box-shadow: 7px 7px 5px;
+}
+
+#myInfo .column p {
+  font-size: 18px;
 }
 
 
