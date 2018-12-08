@@ -440,7 +440,6 @@ aside p.katNaslov:last-child {
   width: 100%;
   background-color: #f0f0f0;
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 #myInfo .center h2 {
@@ -458,14 +457,16 @@ aside p.katNaslov:last-child {
   width: 100%;
   background-color: #f0f0f0;
   padding-top: 40px;
+  /* padding-bottom: 40px; */
 }
 
 #logCenter {
-  width: 350px;
+  width: 300px;
   margin: 0px auto;
   text-align: center;
   font-size: 18px;
-}
+  padding-bottom: 30px;
+  }
 
  #logCenter input[type="radio"] {
   display: none;
@@ -473,7 +474,6 @@ aside p.katNaslov:last-child {
 
 #prijava ~ label {
   text-decoration: none;
-  padding: 7 7 7 7px;
   background-color: #c0c0c0;
   padding: 10px;
   border-radius: 3px;
@@ -491,7 +491,7 @@ aside p.katNaslov:last-child {
 
 #prijavaContent input[type="submit"], #registracijaContent input[type="submit"],
 #registracijaContent input[type="reset"] {
-  width: 80%;
+  width: 60%;
   margin: 10px;
 }
 
