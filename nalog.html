@@ -10,7 +10,7 @@
         <meta name="copyright" content="Aleksandar Madić @ 2018." />
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-        <title>Prijava/Registracija | Arhaik rukotvorine</title>
+        <title>Nalog | Arhaik rukotvorine</title>
         <link rel="shortcut icon" type="image/gif" href="img/logoFav.ico" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
@@ -24,7 +24,7 @@
                             <input type="search" id="mySearch" name="q" placeholder="Pretraga..">
                         </form>
                     </div>
-                    <div id="login">
+                    <nav id="login">
                         <ul>
                             <li>
                                 <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -43,16 +43,18 @@
                                     <i class="fas fa-rss"></i>
                                 </a>
                             </li>
-        
+
                             <li>
-                                <a href="logovanje.html"><i class="fas fa-user"></i> &nbsp; &nbsp;Registruj se</a>
+                                <a href="sitemap.xml" title="Sitemap">
+                                    <i class="fas fa-sitemap"></i>
+                                </a>
                             </li>
         
                             <li>
-                                <a href="logovanje.html">Prijavi se</a>
+                                <a href="nalog.html"><i class="fas fa-user"></i> &nbsp; &nbsp;Moj nalog</a>
                             </li>
                         </ul>
-                    </div>
+                    </nav>
         
                     <div class="cleaner"></div>
                 </div>
@@ -89,49 +91,54 @@
         </header>
 
         <div id="log">
-            <section id="logCenter">
-                <article>
-                    <h2>Prijavi se</h2>
-                    <div class="loginCenter">
+            <div id="logCenter">
+            
+                <input type="radio" name="content-toggle" id="prijava" /> 
+                <label for="prijava" tabindex="1" />Prijavi se</label>
+
+                <input type="radio" name="content-toggle" id="registracija" /> 
+                <label for="registracija" tabindex="2">Registruj se</label>
+            
+                <div id="content">
+                    <div id="prijavaContent">
                         <form action="" method="POST" name="log">
-                    
+                        
                             <label for="mail">Email adresa * </label>
                             <br />
                             <input type="email" id="mail" name="mail" />
                             <br />
-                    
+                        
                             <label for="message">Lozinka *</label>
                             <br />
                             <input type="password" id="password" name="password" />
-                    
-                            <input type="submit" id="submit" name="submit" value="PRIJAVA">
+                        
+                            <input type="submit" id="submit" name="submit" value="Prijava">
                         </form>
-                </article>
-
-                <article>
-                    <h2>Nemaš nalog? Registruj se</h2>
-                    <div class="loginCenter">
+                    </div>
+                    <div id="registracijaContent">
                         <form action="" method="POST" name="reg">
                             <label for="fullName">Ime i prezime *</label>
                             <input type="text" id="fullName" name="fullName" />
-                    
+                        
                             <label for="smail">Email adresa * </label>
                             <input type="email" id="smail" name="smail" />
-                    
+                        
                             <label for="spassword">Lozinka *</label>
                             <input type="password" id="spassword" name="spassword" />
-                    
+                        
                             <label for="password1">Unesi ponovo lozinku *</label>
                             <input type="password" id="password1" name="password1" />
-                            
+                        
                             <label for="adresa">Adresa *</label>
                             <input type="text" id="adresa" name="adresa" />
-                    
-                            <input type="submit" id="sign" name="sign" value="REGISTRACIJA">
-                            <input type="reset" name="reset" id="reset" value="PONIŠTI" />
+                        
+                            <input type="submit" id="sign" name="sign" value="Registracija">
+                            <input type="reset" name="reset" id="reset" value="Poništi" />
                         </form>
-                </article>
-            </section>
+                    </div>
+                </div>
+            
+            </div>
         </div>
 
 
