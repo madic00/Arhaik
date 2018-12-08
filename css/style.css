@@ -457,7 +457,6 @@ aside p.katNaslov:last-child {
   width: 100%;
   background-color: #f0f0f0;
   padding-top: 40px;
-  /* padding-bottom: 40px; */
 }
 
 #logCenter {
@@ -485,7 +484,6 @@ aside p.katNaslov:last-child {
 
 #content{
   width: 100%;
-  min-height: 200px;
   margin-top: 50px;
 }
 
